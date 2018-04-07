@@ -1,4 +1,4 @@
-﻿Log file open, 04/06/18 17:12:40
+﻿Log file open, 04/07/18 00:25:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TroubleInTheWesT
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-208691581) SRandInit(-208691581).
+LogInit: Display: RandInit(-330266269) SRandInit(-330266269).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.603223
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.815732
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3944462).
@@ -173,7 +173,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  2.428s to configure plugins.
+LogStreaming: Display: Took  4.502s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -193,7 +193,8 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DigitalStorm-PC (172.26.106.95:0)
+LogInit: WinSock: I am DESKTOP-B1PIVCR (172.26.92.189:0)
+LogHMD: Failed initializing OVRPlugin 1.21.0
 LogInit: Build: ++UE4+Release-4.19-CL-3944462
 LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -222,630 +223,909 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: D:/Unreal/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: F:/Unreal/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.060s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.06-21.12.43:825][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.06-21.12.43:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.06-21.12.43:941][  0]LogInit: Computer: DIGITALSTORM-PC
-[2018.04.06-21.12.43:941][  0]LogInit: User: Admin
-[2018.04.06-21.12.43:941][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.06-21.12.43:941][  0]LogInit: High frequency timer resolution =3.328125 MHz
-[2018.04.06-21.12.43:942][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.04.06-21.12.43:942][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.06-21.12.43:942][  0]LogMemory: Process Physical Memory: 274.26 MB used, 274.26 MB peak
-[2018.04.06-21.12.43:942][  0]LogMemory: Process Virtual Memory: 266.36 MB used, 266.36 MB peak
-[2018.04.06-21.12.43:942][  0]LogMemory: Physical Memory: 5804.39 MB used,  2330.88 MB free, 8135.28 MB total
-[2018.04.06-21.12.43:942][  0]LogMemory: Virtual Memory: 674.47 MB used,  2330.88 MB free, 134217728.00 MB total
-[2018.04.06-21.12.44:467][  0]LogInit: Using OS detected language (en-US).
-[2018.04.06-21.12.44:467][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.06-21.12.44:658][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.06-21.12.45:314][  0]LogStreaming: Display: Took  0.832s to EndInitTextLocalization.
-[2018.04.06-21.12.45:320][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.06-21.12.45:849][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.06-21.12.45:849][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.06-21.12.49:291][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.06-21.12.49:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.04.06-21.12.49:353][  0]LogD3D11RHI:       4029/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.04.06-21.12.49:356][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.06-21.12.49:356][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.06-21.12.49:356][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.06-21.12.49:363][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.06-21.12.49:363][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.06-21.12.49:363][  0]LogWindows: EnumDisplayDevices:
-[2018.04.06-21.12.49:363][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2018.04.06-21.12.49:363][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.04.06-21.12.49:364][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.06-21.12.49:364][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.06-21.12.49:364][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.06-21.12.49:364][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.04.06-21.12.49:364][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.06-21.12.49:364][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.06-21.12.49:364][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
-[2018.04.06-21.12.49:395][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.04.06-21.12.49:395][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.06-21.12.49:655][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.04.06-21.12.49:758][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Intermediate/Shaders/WorkingDirectory/10884/).
-[2018.04.06-21.12.49:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/84BE7BC7450C10AFF26C248D32BB3227/'.
-[2018.04.06-21.12.50:661][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.06-21.12.50:687][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.06-21.12.50:706][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.06-21.12.50:743][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.06-21.12.50:821][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.06-21.12.50:841][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.06-21.12.50:855][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.06-21.12.50:870][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.06-21.12.50:877][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.06-21.12.50:904][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.06-21.12.50:965][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.06-21.12.50:979][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.06-21.12.50:994][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.06-21.12.51:008][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.06-21.12.51:040][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.06-21.12.51:087][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.06-21.12.51:087][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.06-21.12.51:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.06-21.12.51:167][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.06-21.12.51:277][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.06-21.12.51:305][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.06-21.12.51:333][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.06-21.12.51:349][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.06-21.12.51:383][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.06-21.12.51:418][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.06-21.12.51:418][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.06-21.12.52:133][  0]LogXGEController: Cleaning working directory: C:/Users/Admin/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.06-21.12.52:134][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.06-21.12.52:141][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.06-21.12.52:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.06-21.12.53:562][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: Loaded boot cache 0.52s 74MB C:/Users/Admin/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.06-21.12.54:081][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.06-21.12.54:150][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.06-21.12.54:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.06-21.12.54:266][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.06-21.12.54:304][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.06-21.12.54:397][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.06-21.12.54:397][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.06-21.12.57:765][  0]LogAssetRegistry: FAssetRegistry took 0.0361 seconds to start up
-[2018.04.06-21.13.09:515][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.06-21.13.14:614][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.06-21.13.14:765][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.06-21.13.14:793][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.06-21.13.14:795][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.06-21.13.14:795][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.06-21.13.14:795][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.06-21.13.16:854][  0]LogNetVersion: TroubleInTheWesT , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3486453497)
-[2018.04.06-21.13.25:544][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.221117 seconds
-[2018.04.06-21.13.25:591][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.06-21.13.25:591][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.04.06-21.13.25:591][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.06-21.13.47:517][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.04.06-21.13.47:632][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.06-21.13.47:704][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.06-21.13.48:781][  0]SourceControl: Source control is disabled
-[2018.04.06-21.13.48:781][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.04.06-21.13.48:781][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.04.06-21.13.48:781][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.04.06-21.13.48:781][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: URL: C:\Users\Admin\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.04.06-21.13.48:782][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.04.06-21.13.51:235][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.06-21.13.51:521][  0]LogOcInput: OculusInput pre-init called
-[2018.04.06-21.13.52:622][  0]LogEngine: Initializing Engine...
-[2018.04.06-21.13.52:659][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.06-21.13.52:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.06-21.13.52:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.06-21.13.53:296][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.06-21.13.53:483][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.06-21.13.53:502][  0]LogInit: FAudioDevice initialized.
-[2018.04.06-21.13.53:628][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Admin/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.06-21.13.53:641][  0]LogInit: Texture streaming: Enabled
-[2018.04.06-21.13.53:749][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.06-21.13.53:980][  0]LogInit: Transaction tracking system initialized
-[2018.04.06-21.13.54:408][  0]BlueprintLog: New page: Editor Load
-[2018.04.06-21.13.55:418][  0]LocalizationService: Localization service is disabled
-[2018.04.06-21.13.56:628][  0]LogConsoleResponse: Display: 
-[2018.04.06-21.13.58:116][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/' took 0.02s
-[2018.04.06-21.13.58:116][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.06-21.13.58:126][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.06-21.13.58:126][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.06-21.13.58:126][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.06-21.13.58:126][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.06-21.14.01:466][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/OldeTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.06-21.14.01:527][  0]LightingResults: New page: Lighting Build
-[2018.04.06-21.14.02:223][  0]MapCheck: New page: Map Check
-[2018.04.06-21.14.02:223][  0]LightingResults: New page: Lighting Build
-[2018.04.06-21.14.06:648][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [20.225502ms] /Game/WesTurner_Character/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.04.06-21.14.07:139][  0]LogAIModule: Creating AISystem for world OldeTown
-[2018.04.06-21.14.08:516][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.06-21.14.08:733][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.06-21.14.08:844][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.391ms to complete.
-[2018.04.06-21.14.08:844][  0]LogFileHelpers: Loading map 'OldeTown' took 7.400
-[2018.04.06-21.14.10:829][  0]LogCollectionManager: Loaded 0 collections in 0.001874 seconds
-[2018.04.06-21.14.10:992][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Collections/' took 0.01s
-[2018.04.06-21.14.10:992][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/Developers/Admin/Collections/' took 0.01s
-[2018.04.06-21.14.10:992][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/Collections/' took 0.01s
-[2018.04.06-21.14.10:992][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.06-21.14.11:010][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2466 classes and 564 folders.
-[2018.04.06-21.14.11:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.06-21.14.12:201][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.06-21.14.12:268][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.04.06-21.14.13:648][  0]LogSlate: Took 0.014815 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.06-21.14.13:679][  0]LogSlate: Took 0.028765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.06-21.14.13:774][  0]LogSlate: Took 0.016845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.06-21.14.14:349][  0]LogRenderer: Reallocating scene render targets to support 1176x600 Format 10 NumSamples 1 (Frame:1).
-[2018.04.06-21.14.15:553][  0]LogSlate: Took 0.010480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.06-21.14.15:988][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.04.06-21.14.15:988][  0]LogLoad: (Engine Initialization) Total time: 106.67 seconds
-[2018.04.06-21.14.15:988][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.06-21.14.16:982][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.06-21.14.17:397][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2018.04.06-21.14.17:729][  2]LogAssetRegistry: Asset discovery search completed in 79.9899 seconds
-[2018.04.06-21.14.17:742][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.06-21.14.17:742][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000419 seconds (updated 0 objects)
-[2018.04.06-21.19.15:922][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.06-22.14.01:931][400]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3091fb42-5c82-4e96-bc86-d0c9f4ecf370} was removed. Shutting down audio device.
-[2018.04.06-22.14.01:970][400]LogInit: No audio devices found!
-[2018.04.06-22.14.02:485][402]LogInit: No audio devices found!
-[2018.04.06-22.14.08:849][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.07-01.29.30:138][972]LogSlate: Took 0.015121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.07-01.29.34:140][972]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Post/Models/FBX/Fence_1.fbx)
-[2018.04.07-01.29.34:315][972]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.04.07-01.29.34:315][972]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.04.07-01.29.34:315][972]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.04.07-01.29.34:316][972]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.04.07-01.29.34:316][972]LogFbx: ItemName: Material, ItemCount : 1
-[2018.04.07-01.29.34:316][972]LogFbx: ItemName: Model, ItemCount : 1
-[2018.04.07-01.29.34:332][972]LogFbx: Loading FBX Scene from F:/Post/Models/FBX/Fence_1.fbx
-[2018.04.07-01.29.34:377][972]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.07-01.29.41:297][972]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.04.07-01.29.41:382][972]LogFbx: Loading FBX Scene from F:/Post/Models/FBX/Fence_1.fbx
-[2018.04.07-01.29.41:388][972]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.07-01.29.41:431][972]LogFbx: Warning: Triangulating static mesh Fence:polySurface5
-[2018.04.07-01.29.41:496][972]LogStaticMesh: Building static mesh Fence_1...
-[2018.04.07-01.29.41:552][972]LogStaticMesh: Built static mesh [0.06s] /Game/assets/Props/Fence_1.Fence_1
-[2018.04.07-01.29.42:005][972]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Post/Models/FBX/Fence_2.fbx)
-[2018.04.07-01.29.42:017][972]LogFbx: Loading FBX Scene from F:/Post/Models/FBX/Fence_2.fbx
-[2018.04.07-01.29.42:025][972]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.07-01.29.42:025][972]LogFbx: Warning: Triangulating static mesh polySurface11
-[2018.04.07-01.29.42:040][972]LogStaticMesh: Building static mesh Fence_2...
-[2018.04.07-01.29.42:048][972]LogStaticMesh: Built static mesh [0.01s] /Game/assets/Props/Fence_2.Fence_2
-[2018.04.07-01.29.42:209][972]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Post/Models/FBX/Fence_Lintel.fbx)
-[2018.04.07-01.29.42:218][972]LogFbx: Loading FBX Scene from F:/Post/Models/FBX/Fence_Lintel.fbx
-[2018.04.07-01.29.42:224][972]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.07-01.29.42:224][972]LogFbx: Warning: Triangulating static mesh polySurface17
-[2018.04.07-01.29.42:239][972]LogStaticMesh: Building static mesh Fence_Lintel...
-[2018.04.07-01.29.42:241][972]LogStaticMesh: Built static mesh [0.00s] /Game/assets/Props/Fence_Lintel.Fence_Lintel
-[2018.04.07-01.29.42:388][972]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Post/Models/FBX/Fence_Post.fbx)
-[2018.04.07-01.29.42:397][972]LogFbx: Loading FBX Scene from F:/Post/Models/FBX/Fence_Post.fbx
-[2018.04.07-01.29.42:403][972]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.07-01.29.42:403][972]LogFbx: Warning: Triangulating static mesh polySurface16
-[2018.04.07-01.29.42:409][972]LogStaticMesh: Building static mesh Fence_Post...
-[2018.04.07-01.29.42:411][972]LogStaticMesh: Built static mesh [0.00s] /Game/assets/Props/Fence_Post.Fence_Post
-[2018.04.07-01.29.47:021][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/Props/Fence_1" FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_1.uasset" SILENT=true
-[2018.04.07-01.29.47:114][421]LogSavePackage: Save=79.53ms
-[2018.04.07-01.29.47:114][421]LogSavePackage: Moving '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Fence_1FA21F80E4F7D678B1A462EA71C723F44.tmp' to '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_1.uasset'
-[2018.04.07-01.29.47:172][421]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_1.uasset
-[2018.04.07-01.29.47:566][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/Props/Fence_2" FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_2.uasset" SILENT=true
-[2018.04.07-01.29.47:579][421]LogSavePackage: Save=10.91ms
-[2018.04.07-01.29.47:579][421]LogSavePackage: Moving '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Fence_2A0DD9DEC4C2807F990C397A95B849865.tmp' to '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_2.uasset'
-[2018.04.07-01.29.47:585][421]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_2.uasset
-[2018.04.07-01.29.47:849][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/Props/Fence_Lintel" FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Lintel.uasset" SILENT=true
-[2018.04.07-01.29.47:860][421]LogSavePackage: Save=9.37ms
-[2018.04.07-01.29.47:860][421]LogSavePackage: Moving '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Fence_LintelEA1D7322404A745AD9C7D48C66BD89EB.tmp' to '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Lintel.uasset'
-[2018.04.07-01.29.47:866][421]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Lintel.uasset
-[2018.04.07-01.29.48:099][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/Props/Fence_Post" FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Post.uasset" SILENT=true
-[2018.04.07-01.29.48:112][421]LogSavePackage: Save=10.63ms
-[2018.04.07-01.29.48:112][421]LogSavePackage: Moving '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Fence_PostAB9B688A4FB67033DA967799BDBFC717.tmp' to '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Post.uasset'
-[2018.04.07-01.29.48:117][421]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/assets/Props/Fence_Post.uasset
-[2018.04.07-01.29.55:300][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.29.55:358][198]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.07-01.29.55:486][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.07-01.29.55:584][198]PIE: New page: PIE session: OldeTown (Apr 6, 2018, 5:29:55 PM)
-[2018.04.07-01.29.55:603][198]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OldeTown
-[2018.04.07-01.29.55:961][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357469s)
-[2018.04.07-01.29.55:970][198]LogAIModule: Creating AISystem for world OldeTown
-[2018.04.07-01.29.55:983][198]LogPlayLevel: PIE: World Init took: (0.014417s)
-[2018.04.07-01.29.55:983][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OldeTown.OldeTown to /Game/UEDPIE_0_OldeTown.OldeTown (0.380016s)
-[2018.04.07-01.29.56:072][198]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.07-01.29.56:086][198]LogInit: FAudioDevice initialized.
-[2018.04.07-01.29.56:187][198]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2018.04.07-01.29.56:350][198]LogWorld: Bringing World /Game/UEDPIE_0_OldeTown.OldeTown up for play (max tick rate 0) at 2018.04.06-21.29.56
-[2018.04.07-01.29.56:390][198]LogWorld: Bringing up level for play took: 0.073055
-[2018.04.07-01.29.56:557][198]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2018.04.07-01.29.57:066][198]PIE: Play in editor start time for /Game/UEDPIE_0_OldeTown 2.059
-[2018.04.07-01.30.07:546][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.30.07:715][327]LogActorFactory: Actor Factory created Fence_1
-[2018.04.07-01.30.07:893][327]LogActorFactory: Actor Factory created Fence_2
-[2018.04.07-01.30.07:894][327]LogActorFactory: Actor Factory created Fence_Lintel
-[2018.04.07-01.30.07:895][327]LogActorFactory: Actor Factory created Fence_Post
-[2018.04.07-01.30.08:695][392]LogActorFactory: Actor Factory created Fence_1
-[2018.04.07-01.30.09:143][392]LogActorFactory: Actor Factory created Fence_2
-[2018.04.07-01.30.09:163][392]LogActorFactory: Actor Factory created Fence_Lintel
-[2018.04.07-01.30.09:181][392]LogActorFactory: Actor Factory created Fence_Post
-[2018.04.07-01.30.12:066][693]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.04.07-01.30.15:360][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.30.16:178][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence_Post)
-[2018.04.07-01.30.17:127][227]Cmd: TRANSACTION UNDO
-[2018.04.07-01.30.17:128][227]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.07-01.30.17:647][251]Cmd: TRANSACTION UNDO
-[2018.04.07-01.30.17:647][251]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.07-01.30.18:068][294]Cmd: TRANSACTION UNDO
-[2018.04.07-01.30.18:068][294]LogEditorTransaction: Undo Rotate Actors
-[2018.04.07-01.30.18:464][334]Cmd: TRANSACTION UNDO
-[2018.04.07-01.30.18:464][334]LogEditorTransaction: Undo Create Actors
-[2018.04.07-01.30.19:333][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.30.19:939][482]LogActorFactory: Actor Factory created Fence_1
-[2018.04.07-01.30.20:489][528]LogActorFactory: Actor Factory created Fence_1
-[2018.04.07-01.30.22:295][733]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.04.07-01.30.23:063][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.30.23:132][823]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.07-01.30.23:146][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.07-01.30.23:146][823]PIE: New page: PIE session: OldeTown (Apr 6, 2018, 5:30:23 PM)
-[2018.04.07-01.30.23:146][823]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OldeTown
-[2018.04.07-01.30.23:211][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064208s)
-[2018.04.07-01.30.23:211][823]LogAIModule: Creating AISystem for world OldeTown
-[2018.04.07-01.30.23:212][823]LogPlayLevel: PIE: World Init took: (0.000593s)
-[2018.04.07-01.30.23:212][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OldeTown.OldeTown to /Game/UEDPIE_0_OldeTown.OldeTown (0.065102s)
-[2018.04.07-01.30.23:227][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.07-01.30.23:238][823]LogInit: FAudioDevice initialized.
-[2018.04.07-01.30.23:269][823]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2018.04.07-01.30.23:290][823]LogWorld: Bringing World /Game/UEDPIE_0_OldeTown.OldeTown up for play (max tick rate 0) at 2018.04.06-21.30.23
-[2018.04.07-01.30.23:290][823]LogWorld: Bringing up level for play took: 0.020506
-[2018.04.07-01.30.23:294][823]PIE: Play in editor start time for /Game/UEDPIE_0_OldeTown 0.286
-[2018.04.07-01.30.34:626][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence_1)
-[2018.04.07-01.30.35:403][229]Cmd: DELETE
-[2018.04.07-01.30.35:403][229]Cmd: ACTOR DELETE
-[2018.04.07-01.30.35:712][229]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.07-01.30.35:725][229]LogEditorActor: Deleted 1 Actors (0.093 secs)
-[2018.04.07-01.30.37:432][412]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.38:821][564]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.38:924][564]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.39:506][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OldeTown" FILE="../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/OldeTown.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.07-01.30.41:021][564]LogSavePackage: Save=1344.39ms
-[2018.04.07-01.30.41:021][564]LogSavePackage: Moving '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/OldeTownDF3707664167F37D7FFF17820415DEA6.tmp' to '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/OldeTown.umap'
-[2018.04.07-01.30.41:026][564]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/OldeTown.umap
-[2018.04.07-01.30.41:047][564]LogFileHelpers: Saving map 'OldeTown' took 2.119
-[2018.04.07-01.30.45:841][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.47:313][281]SourceControl: fatal: D:/Unreal/UE_4.19/Engine/Content: 'D:/Unreal/UE_4.19/Engine/Content' is outside repository
-[2018.04.07-01.30.48:713][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.57:389][281]LogSlate: Window 'Submit Files' being destroyed
-[2018.04.07-01.30.57:409][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.30.57:644][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.07-01.31.02:363][281]LogSourceControl: commit successful: [master 5a40513] Added Fences
-[2018.04.07-01.31.02:501][281]SourceControl: [master 5a40513] Added Fences
-[2018.04.07-01.31.02:501][281]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
-[2018.04.07-01.31.02:501][281]SourceControl:  create mode 100644 TroubleInTheWesT/Content/assets/Props/Fence_1.uasset
-[2018.04.07-01.31.02:501][281]SourceControl:  create mode 100644 TroubleInTheWesT/Content/assets/Props/Fence_2.uasset
-[2018.04.07-01.31.02:501][281]SourceControl:  create mode 100644 TroubleInTheWesT/Content/assets/Props/Fence_Lintel.uasset
-[2018.04.07-01.31.02:501][281]SourceControl:  create mode 100644 TroubleInTheWesT/Content/assets/Props/Fence_Post.uasset
-[2018.04.07-01.31.02:514][281]SourceControl: Commited [master 5a40513] Added Fences.
-[2018.04.07-01.31.05:892][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.07-01.31.06:180][649]LogSlate: Window 'TroubleInTheWesT - Unreal Editor' being destroyed
-[2018.04.07-01.31.06:181][649]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.07-01.31.06:755][650]Cmd: QUIT_EDITOR
-[2018.04.07-01.31.07:883][650]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.04.07-01.31.07:883][650]LogExit: Preparing to exit.
-[2018.04.07-01.31.08:817][650]LogDirectoryWatcher: A directory notification for 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/' was aborted.
-[2018.04.07-01.31.09:009][650]LogExit: Editor shut down
-[2018.04.07-01.31.09:050][650]LogExit: Transaction tracking system shut down
-[2018.04.07-01.31.09:331][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.07-01.31.09:331][650]LogDirectoryWatcher: A directory notification for '../../../../../Documents/Wes-Turner-Development/TroubleInTheWesT/Content/' was aborted.
-[2018.04.07-01.31.09:331][650]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.07-01.31.09:332][650]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.04.07-01.31.09:332][650]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.07-01.31.09:332][650]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.07-01.31.09:332][650]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.07-01.31.09:332][650]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.07-01.31.11:584][650]LogExit: Object subsystem successfully closed.
-[2018.04.07-01.31.11:690][650]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.04.07-01.31.11:724][650]LogD3D11RHI: Shutdown
-[2018.04.07-01.31.11:724][650]LogD3D11RHI: CleanupD3DDevice
-[2018.04.07-01.31.11:759][650]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.07-01.31.12:809][650]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (584)
-[2018.04.07-01.31.12:809][650]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (582)
-[2018.04.07-01.31.12:809][650]LogModuleManager: Shutting down and abandoning module SceneOutliner (580)
-[2018.04.07-01.31.12:809][650]LogModuleManager: Shutting down and abandoning module AddContentDialog (578)
-[2018.04.07-01.31.12:832][650]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.19/FeaturePacks/' was aborted.
-[2018.04.07-01.31.12:837][650]LogModuleManager: Shutting down and abandoning module WidgetCarousel (577)
-[2018.04.07-01.31.12:837][650]LogModuleManager: Shutting down and abandoning module EditorWidgets (574)
-[2018.04.07-01.31.12:837][650]LogModuleManager: Shutting down and abandoning module CollectionManager (572)
-[2018.04.07-01.31.12:841][650]LogDirectoryWatcher: A directory notification for 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/Collections/' was aborted.
-[2018.04.07-01.31.12:841][650]LogDirectoryWatcher: A directory notification for 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Content/Developers/Admin/Collections/' was aborted.
-[2018.04.07-01.31.12:842][650]LogDirectoryWatcher: A directory notification for 'D:/Documents/Wes-Turner-Development/TroubleInTheWesT/Saved/Collections/' was aborted.
-[2018.04.07-01.31.12:842][650]LogModuleManager: Shutting down and abandoning module StatsViewer (570)
-[2018.04.07-01.31.12:854][650]LogModuleManager: Shutting down and abandoning module FoliageEdit (568)
-[2018.04.07-01.31.12:855][650]LogModuleManager: Shutting down and abandoning module LandscapeEditor (566)
-[2018.04.07-01.31.12:871][650]LogModuleManager: Shutting down and abandoning module MeshPaintMode (564)
-[2018.04.07-01.31.12:883][650]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (562)
-[2018.04.07-01.31.12:883][650]LogModuleManager: Shutting down and abandoning module ActorPickerMode (560)
-[2018.04.07-01.31.12:883][650]LogModuleManager: Shutting down and abandoning module GeometryMode (558)
-[2018.04.07-01.31.12:903][650]LogModuleManager: Shutting down and abandoning module TextureAlignMode (556)
-[2018.04.07-01.31.12:903][650]LogModuleManager: Shutting down and abandoning module BspMode (554)
-[2018.04.07-01.31.12:903][650]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (552)
-[2018.04.07-01.31.12:903][650]LogModuleManager: Shutting down and abandoning module HardwareSurvey (550)
-[2018.04.07-01.31.12:903][650]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (548)
-[2018.04.07-01.31.12:921][650]LogModuleManager: Shutting down and abandoning module AutomationWorker (546)
-[2018.04.07-01.31.12:921][650]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (544)
-[2018.04.07-01.31.12:921][650]LogModuleManager: Shutting down and abandoning module SequenceRecorder (543)
-[2018.04.07-01.31.12:939][650]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (540)
-[2018.04.07-01.31.12:957][650]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (538)
-[2018.04.07-01.31.12:994][650]LogModuleManager: Shutting down and abandoning module PlacementMode (537)
-[2018.04.07-01.31.12:994][650]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
-[2018.04.07-01.31.13:017][650]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (532)
-[2018.04.07-01.31.13:017][650]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (530)
-[2018.04.07-01.31.13:017][650]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (528)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (526)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (524)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (522)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (520)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (518)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (516)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (514)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module CharacterAI (512)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module SmartSnapping (510)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module SessionServices (508)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module ViewportSnapping (506)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module ViewportInteraction (504)
-[2018.04.07-01.31.13:046][650]LogModuleManager: Shutting down and abandoning module ClothPainter (502)
-[2018.04.07-01.31.13:065][650]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (501)
-[2018.04.07-01.31.13:086][650]LogModuleManager: Shutting down and abandoning module LogVisualizer (498)
-[2018.04.07-01.31.13:111][650]LogModuleManager: Shutting down and abandoning module IntroTutorials (496)
-[2018.04.07-01.31.13:155][650]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (495)
-[2018.04.07-01.31.13:162][650]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (492)
-[2018.04.07-01.31.13:167][650]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (490)
-[2018.04.07-01.31.13:167][650]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (488)
-[2018.04.07-01.31.13:167][650]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (487)
-[2018.04.07-01.31.13:784][650]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (484)
-[2018.04.07-01.31.13:785][650]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (482)
-[2018.04.07-01.31.13:785][650]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (480)
-[2018.04.07-01.31.13:785][650]LogModuleManager: Shutting down and abandoning module InputBindingEditor (478)
-[2018.04.07-01.31.13:798][650]LogModuleManager: Shutting down and abandoning module MergeActors (476)
-[2018.04.07-01.31.13:806][650]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (474)
-[2018.04.07-01.31.13:812][650]LogModuleManager: Shutting down and abandoning module LocalizationService (473)
-[2018.04.07-01.31.13:823][650]LogModuleManager: Shutting down and abandoning module HardwareTargeting (470)
-[2018.04.07-01.31.13:823][650]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (468)
-[2018.04.07-01.31.13:834][650]LogModuleManager: Shutting down and abandoning module UndoHistory (466)
-[2018.04.07-01.31.13:834][650]LogModuleManager: Shutting down and abandoning module XmlParser (464)
-[2018.04.07-01.31.13:840][650]LogModuleManager: Shutting down and abandoning module Blutility (462)
-[2018.04.07-01.31.13:840][650]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (460)
-[2018.04.07-01.31.13:840][650]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (459)
-[2018.04.07-01.31.13:840][650]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (456)
-[2018.04.07-01.31.13:840][650]LogModuleManager: Shutting down and abandoning module SettingsEditor (454)
-[2018.04.07-01.31.13:891][650]LogModuleManager: Shutting down and abandoning module ProjectLauncher (452)
-[2018.04.07-01.31.13:901][650]LogModuleManager: Shutting down and abandoning module SessionFrontend (450)
-[2018.04.07-01.31.13:912][650]LogModuleManager: Shutting down and abandoning module ProfilerClient (448)
-[2018.04.07-01.31.13:923][650]LogModuleManager: Shutting down and abandoning module DeviceManager (446)
-[2018.04.07-01.31.13:928][650]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (445)
-[2018.04.07-01.31.13:981][650]LogModuleManager: Shutting down and abandoning module AutomationController (442)
-[2018.04.07-01.31.14:000][650]LogModuleManager: Shutting down and abandoning module AutomationWindow (440)
-[2018.04.07-01.31.14:006][650]LogModuleManager: Shutting down and abandoning module Layers (438)
-[2018.04.07-01.31.14:023][650]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (436)
-[2018.04.07-01.31.14:023][650]LogModuleManager: Shutting down and abandoning module DetailCustomizations (434)
-[2018.04.07-01.31.14:023][650]LogModuleManager: Shutting down and abandoning module PackagesDialog (432)
-[2018.04.07-01.31.14:023][650]LogModuleManager: Shutting down and abandoning module Persona (430)
-[2018.04.07-01.31.14:032][650]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (429)
-[2018.04.07-01.31.14:032][650]LogModuleManager: Shutting down and abandoning module AnimGraph (427)
-[2018.04.07-01.31.14:032][650]LogModuleManager: Shutting down and abandoning module Kismet (424)
-[2018.04.07-01.31.14:049][650]LogModuleManager: Shutting down and abandoning module GraphEditor (422)
-[2018.04.07-01.31.14:081][650]LogModuleManager: Shutting down and abandoning module ClassViewer (420)
-[2018.04.07-01.31.14:081][650]LogModuleManager: Shutting down and abandoning module Toolbox (418)
-[2018.04.07-01.31.14:081][650]LogModuleManager: Shutting down and abandoning module ModuleUI (416)
-[2018.04.07-01.31.14:093][650]LogModuleManager: Shutting down and abandoning module MovieSceneTools (414)
-[2018.04.07-01.31.14:120][650]LogModuleManager: Shutting down and abandoning module OutputLog (412)
-[2018.04.07-01.31.14:132][650]LogModuleManager: Shutting down and abandoning module GammaUI (410)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module Documentation (408)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (406)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module MovieScene (404)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (402)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module LauncherPlatform (400)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module AnalyticsET (398)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module PortalServices (396)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module PortalRpc (394)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module MessagingRpc (392)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module AIModule (390)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module GameplayDebugger (389)
-[2018.04.07-01.31.14:139][650]LogModuleManager: Shutting down and abandoning module AITestSuite (387)
-[2018.04.07-01.31.14:152][650]LogModuleManager: Shutting down and abandoning module DesktopPlatform (384)
-[2018.04.07-01.31.14:168][650]LogModuleManager: Shutting down and abandoning module ProfilerService (382)
-[2018.04.07-01.31.14:199][650]LogModuleManager: Shutting down and abandoning module TaskGraph (380)
-[2018.04.07-01.31.14:207][650]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (378)
-[2018.04.07-01.31.14:227][650]LogModuleManager: Shutting down and abandoning module SubstanceSource (376)
-[2018.04.07-01.31.14:264][650]LogModuleManager: Shutting down and abandoning module SubstanceEditor (374)
-[2018.04.07-01.31.14:282][650]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2018.04.07-01.31.14:282][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2018.04.07-01.31.14:282][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2018.04.07-01.31.14:294][650]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2018.04.07-01.31.14:303][650]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2018.04.07-01.31.14:303][650]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2018.04.07-01.31.14:303][650]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2018.04.07-01.31.14:308][650]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2018.04.07-01.31.14:308][650]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2018.04.07-01.31.14:308][650]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2018.04.07-01.31.14:308][650]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2018.04.07-01.31.14:308][650]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2018.04.07-01.31.14:325][650]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2018.04.07-01.31.14:325][650]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2018.04.07-01.31.14:325][650]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2018.04.07-01.31.14:325][650]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2018.04.07-01.31.14:340][650]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2018.04.07-01.31.14:340][650]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2018.04.07-01.31.14:349][650]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2018.04.07-01.31.14:350][650]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2018.04.07-01.31.14:350][650]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2018.04.07-01.31.14:350][650]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2018.04.07-01.31.14:350][650]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2018.04.07-01.31.14:350][650]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2018.04.07-01.31.14:363][650]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2018.04.07-01.31.14:373][650]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2018.04.07-01.31.14:383][650]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2018.04.07-01.31.14:383][650]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2018.04.07-01.31.14:383][650]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2018.04.07-01.31.14:383][650]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2018.04.07-01.31.14:383][650]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2018.04.07-01.31.14:391][650]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2018.04.07-01.31.14:401][650]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2018.04.07-01.31.14:401][650]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2018.04.07-01.31.14:401][650]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2018.04.07-01.31.14:411][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2018.04.07-01.31.14:411][650]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2018.04.07-01.31.14:411][650]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2018.04.07-01.31.14:411][650]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2018.04.07-01.31.14:423][650]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2018.04.07-01.31.14:442][650]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
-[2018.04.07-01.31.14:443][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
-[2018.04.07-01.31.14:458][650]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
-[2018.04.07-01.31.14:458][650]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
-[2018.04.07-01.31.14:598][650]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
-[2018.04.07-01.31.14:709][650]LogModuleManager: Shutting down and abandoning module SubstanceCore (270)
-[2018.04.07-01.31.14:732][650]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.04.07-01.31.14:744][650]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.04.07-01.31.14:744][650]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.04.07-01.31.14:744][650]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.04.07-01.31.14:744][650]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.04.07-01.31.14:751][650]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.04.07-01.31.14:761][650]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.04.07-01.31.14:777][650]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.04.07-01.31.14:777][650]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.04.07-01.31.14:777][650]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.04.07-01.31.14:790][650]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.04.07-01.31.14:791][650]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.04.07-01.31.14:799][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.04.07-01.31.14:799][650]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.04.07-01.31.14:800][650]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.04.07-01.31.15:076][650]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.04.07-01.31.15:084][650]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.04.07-01.31.15:090][650]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.04.07-01.31.15:104][650]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
-[2018.04.07-01.31.15:104][650]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
-[2018.04.07-01.31.15:104][650]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
-[2018.04.07-01.31.15:122][650]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
-[2018.04.07-01.31.15:122][650]LogModuleManager: Shutting down and abandoning module Media (225)
-[2018.04.07-01.31.15:127][650]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.04.07-01.31.15:127][650]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.04.07-01.31.15:127][650]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.04.07-01.31.15:141][650]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.04.07-01.31.15:141][650]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.04.07-01.31.15:141][650]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.04.07-01.31.15:163][650]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.04.07-01.31.15:179][650]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.04.07-01.31.15:198][650]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.04.07-01.31.15:198][650]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.04.07-01.31.15:198][650]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.04.07-01.31.15:218][650]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.04.07-01.31.15:241][650]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.04.07-01.31.15:241][650]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.04.07-01.31.15:267][650]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.04.07-01.31.15:267][650]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.04.07-01.31.15:292][650]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.04.07-01.31.15:311][650]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.04.07-01.31.15:311][650]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.04.07-01.31.15:311][650]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.04.07-01.31.15:311][650]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.04.07-01.31.15:311][650]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.04.07-01.31.15:324][650]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.04.07-01.31.15:344][650]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.04.07-01.31.15:350][650]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.04.07-01.31.15:354][650]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.04.07-01.31.15:360][650]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.04.07-01.31.15:397][650]LogDerivedDataCache: Shutdown
-[2018.04.07-01.31.15:397][650]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.04.07-01.31.15:397][650]LogXGEController: Cleaning working directory: C:/Users/Admin/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.07-01.31.15:398][650]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.04.07-01.31.15:398][650]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.04.07-01.31.15:411][650]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.04.07-01.31.15:419][650]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.04.07-01.31.15:433][650]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.04.07-01.31.15:433][650]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.04.07-01.31.15:442][650]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.04.07-01.31.15:442][650]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.04.07-01.31.15:442][650]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.04.07-01.31.15:446][650]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.04.07-01.31.15:447][650]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.04.07-01.31.15:472][650]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.04.07-01.31.15:472][650]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.04.07-01.31.15:472][650]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.07-01.31.15:472][650]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.07-01.31.15:472][650]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.07-01.31.15:492][650]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.07-01.31.15:511][650]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.07-01.31.15:518][650]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.07-01.31.15:518][650]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B867ECDE8-4EF0-4BC2-B2CF-F1B5257920DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=dbf8463b4118dd4009b69ebc28edc515%7C4d2e780ac56d462394cabcf43d87fa18%7Ca19e0ff1-f319-4ac1-823c-ec9af34bf05f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.07-01.31.15:540][650]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.07-01.31.15:557][650]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.07-01.31.15:572][650]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.07-01.31.15:578][650]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.07-01.31.15:596][650]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.07-01.31.15:598][650]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.07-01.31.15:598][650]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.07-01.31.15:598][650]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.07-01.31.15:623][650]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.07-01.31.15:637][650]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.07-01.31.15:637][650]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.07-01.31.15:648][650]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.07-01.31.15:648][650]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.07-01.31.15:648][650]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.07-01.31.15:659][650]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.07-01.31.15:670][650]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.07-01.31.15:688][650]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.07-01.31.15:701][650]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.07-01.31.15:708][650]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.07-01.31.15:714][650]LogExit: Exiting.
-[2018.04.07-01.31.15:729][650]Log file closed, 04/06/18 21:31:15
+[2018.04.07-04.25.44:270][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.07-04.25.44:270][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.07-04.25.44:349][  0]LogInit: Computer: DESKTOP-B1PIVCR
+[2018.04.07-04.25.44:349][  0]LogInit: User: NicholasSchaffer
+[2018.04.07-04.25.44:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.07-04.25.44:349][  0]LogInit: High frequency timer resolution =3.914060 MHz
+[2018.04.07-04.25.44:349][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.07-04.25.44:349][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.07-04.25.44:349][  0]LogMemory: Process Physical Memory: 280.10 MB used, 280.10 MB peak
+[2018.04.07-04.25.44:349][  0]LogMemory: Process Virtual Memory: 269.09 MB used, 269.09 MB peak
+[2018.04.07-04.25.44:349][  0]LogMemory: Physical Memory: 6712.75 MB used,  25970.38 MB free, 32683.13 MB total
+[2018.04.07-04.25.44:349][  0]LogMemory: Virtual Memory: 742.96 MB used,  25970.38 MB free, 134217728.00 MB total
+[2018.04.07-04.25.44:928][  0]LogInit: Using OS detected language (en-US).
+[2018.04.07-04.25.44:928][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.07-04.25.45:161][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.07-04.25.45:780][  0]LogStreaming: Display: Took  0.852s to EndInitTextLocalization.
+[2018.04.07-04.25.45:780][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.07-04.25.46:220][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.07-04.25.46:220][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.07-04.25.48:735][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.07-04.25.48:882][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.07-04.25.48:882][  0]LogD3D11RHI:       8079/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.07-04.25.48:885][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.07-04.25.48:885][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.07-04.25.48:885][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.07-04.25.48:890][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.07-04.25.48:890][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.07-04.25.48:890][  0]LogWindows: EnumDisplayDevices:
+[2018.04.07-04.25.48:890][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.04.07-04.25.48:890][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.07-04.25.48:891][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.07-04.25.48:891][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.07-04.25.48:891][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.07-04.25.48:891][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.07-04.25.48:891][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.07-04.25.48:891][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.07-04.25.48:891][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.04.07-04.25.48:919][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.07-04.25.48:919][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.07-04.25.49:016][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.07-04.25.49:116][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Repositories/WesTurner/TroubleInTheWesT/Intermediate/Shaders/WorkingDirectory/22340/).
+[2018.04.07-04.25.49:125][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholas Schaffer/AppData/Local/Temp/UnrealShaderWorkingDir/2CB4EA9641E658EC3A9AC0BF01B97F04/'.
+[2018.04.07-04.25.50:420][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.07-04.25.50:454][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.07-04.25.50:488][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.07-04.25.50:522][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.07-04.25.50:569][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.07-04.25.50:607][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.07-04.25.50:638][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.07-04.25.50:675][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.07-04.25.50:708][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.07-04.25.50:740][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.07-04.25.50:774][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.07-04.25.50:806][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.07-04.25.50:830][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.07-04.25.50:861][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.07-04.25.50:888][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.07-04.25.50:951][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.07-04.25.50:951][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.07-04.25.50:991][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.07-04.25.51:011][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.07-04.25.51:152][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.07-04.25.51:181][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.07-04.25.51:209][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.07-04.25.51:236][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.07-04.25.51:269][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.07-04.25.51:317][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.07-04.25.51:317][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.07-04.25.52:431][  0]LogXGEController: Cleaning working directory: C:/Users/Nicholas Schaffer/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.07-04.25.52:431][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.07-04.25.52:442][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.07-04.25.52:442][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.07-04.25.54:171][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: Loaded boot cache 0.24s 74MB C:/Users/Nicholas Schaffer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholas Schaffer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Repositories/WesTurner/TroubleInTheWesT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Repositories/WesTurner/TroubleInTheWesT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.07-04.25.54:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.07-04.25.54:501][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.07-04.25.54:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholas Schaffer/Desktop/IceCoveMelee/LocalDerivedDataCache: Writable
+[2018.04.07-04.25.54:539][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.07-04.25.54:539][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.07-04.25.54:592][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.07-04.25.54:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.07-04.25.59:176][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.04.07-04.26.00:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.07-04.26.03:441][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.07-04.26.03:459][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.07-04.26.03:459][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.07-04.26.03:459][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.07-04.26.03:459][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.07-04.26.03:459][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.07-04.26.03:854][  0]LogNetVersion: TroubleInTheWesT , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3486453497)
+[2018.04.07-04.26.06:619][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.124874 seconds
+[2018.04.07-04.26.06:638][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.07-04.26.06:638][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.04.07-04.26.06:638][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.07-04.26.41:865][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.04.07-04.26.41:980][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.07-04.26.42:039][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.07-04.26.42:961][  0]SourceControl: Source control is disabled
+[2018.04.07-04.26.42:961][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.04.07-04.26.42:961][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.04.07-04.26.42:961][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.04.07-04.26.42:961][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: URL: C:\Users\Nicholas Schaffer\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.04.07-04.26.42:962][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.04.07-04.26.45:491][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.07-04.26.45:869][  0]LogOcInput: OculusInput pre-init called
+[2018.04.07-04.26.46:755][  0]LogEngine: Initializing Engine...
+[2018.04.07-04.26.46:891][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.04.07-04.26.46:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.07-04.26.46:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.07-04.26.47:192][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.07-04.26.47:244][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.07-04.26.47:261][  0]LogInit: FAudioDevice initialized.
+[2018.04.07-04.26.47:328][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Nicholas Schaffer/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.07-04.26.47:336][  0]LogInit: Texture streaming: Enabled
+[2018.04.07-04.26.47:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.07-04.26.47:496][  0]LogInit: Transaction tracking system initialized
+[2018.04.07-04.26.47:646][  0]BlueprintLog: New page: Editor Load
+[2018.04.07-04.26.48:310][  0]LocalizationService: Localization service is disabled
+[2018.04.07-04.26.48:830][  0]LogConsoleResponse: Display: 
+[2018.04.07-04.26.49:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.07-04.26.49:579][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.07-04.26.49:579][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.07-04.26.49:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.07-04.26.49:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.07-04.26.50:040][  0]LogFileCache: Scanning file cache for directory 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/' took 0.02s
+[2018.04.07-04.26.51:226][  0]Cmd: MAP LOAD FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/OldeTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.07-04.26.51:226][  0]LightingResults: New page: Lighting Build
+[2018.04.07-04.26.51:246][  0]MapCheck: New page: Map Check
+[2018.04.07-04.26.51:246][  0]LightingResults: New page: Lighting Build
+[2018.04.07-04.26.52:987][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [6.152180ms] /Game/WesTurner_Character/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.07-04.26.53:297][  0]LogAIModule: Creating AISystem for world OldeTown
+[2018.04.07-04.26.55:296][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.07-04.26.55:318][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.07-04.26.55:375][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.229ms to complete.
+[2018.04.07-04.26.55:375][  0]LogFileHelpers: Loading map 'OldeTown' took 4.149
+[2018.04.07-04.26.55:645][  0]LogCollectionManager: Loaded 0 collections in 0.004578 seconds
+[2018.04.07-04.26.55:695][  0]LogFileCache: Scanning file cache for directory 'F:/Repositories/WesTurner/TroubleInTheWesT/Saved/Collections/' took 0.01s
+[2018.04.07-04.26.55:695][  0]LogFileCache: Scanning file cache for directory 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/Developers/NicholasSchaffer/Collections/' took 0.01s
+[2018.04.07-04.26.55:695][  0]LogFileCache: Scanning file cache for directory 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/Collections/' took 0.01s
+[2018.04.07-04.26.55:695][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.07-04.26.55:704][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2466 classes and 564 folders.
+[2018.04.07-04.26.55:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.07-04.26.56:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.07-04.26.56:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.07-04.26.56:961][  0]LogSlate: Took 0.012894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.07-04.26.56:984][  0]LogSlate: Took 0.022037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.07-04.26.57:013][  0]LogSlate: Took 0.012102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.07-04.26.57:226][  0]LogRenderer: Reallocating scene render targets to support 1616x836 Format 10 NumSamples 1 (Frame:1).
+[2018.04.07-04.26.57:419][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.07-04.26.57:419][  0]LogLoad: (Engine Initialization) Total time: 89.00 seconds
+[2018.04.07-04.26.57:419][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.07-04.26.57:450][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.07-04.26.57:517][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.04.07-04.26.57:529][  1]LogAssetRegistry: Asset discovery search completed in 58.3750 seconds
+[2018.04.07-04.26.57:530][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.07-04.26.57:530][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.04.07-04.27.05:349][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.07-04.27.18:340][221]LogSlate: Took 0.014125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.07-04.27.18:541][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_DISTANT_EXPLOSION_2.wav)
+[2018.04.07-04.27.18:762][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_EXPLOSION_01.wav)
+[2018.04.07-04.27.18:977][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_EXPLOSION_3.wav)
+[2018.04.07-04.27.19:189][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_GRUNT.wav)
+[2018.04.07-04.27.19:432][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_GRUNT_01.wav)
+[2018.04.07-04.27.19:675][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_GRUNT_02.wav)
+[2018.04.07-04.27.19:920][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_GRUNT_03.wav)
+[2018.04.07-04.27.20:163][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_GUN_ZAP.wav)
+[2018.04.07-04.27.20:408][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_OBJECT_FALL_THUD_01.wav)
+[2018.04.07-04.27.20:651][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_OBJECT_FALL_THUD_02.wav)
+[2018.04.07-04.27.20:895][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_Reload_Revolver.wav)
+[2018.04.07-04.27.21:138][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_REVOLVER_RELOAD_02.wav)
+[2018.04.07-04.27.21:381][221]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/EFX_WOOD_KICK_01.wav)
+[2018.04.07-04.27.47:691][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Hum.wav)
+[2018.04.07-04.27.47:883][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Insects_Loop_01.wav)
+[2018.04.07-04.27.48:084][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Mockingbird_Loop.wav)
+[2018.04.07-04.27.48:284][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Mockingbird_Sweetner.wav)
+[2018.04.07-04.27.48:481][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Wind_Loop_01.wav)
+[2018.04.07-04.27.48:694][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Wind_Loop_02.wav)
+[2018.04.07-04.27.48:891][496]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/AMB/AMB_Wind_Loop_03.wav)
+[2018.04.07-04.27.58:059][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_01.wav)
+[2018.04.07-04.27.58:272][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_02.wav)
+[2018.04.07-04.27.58:516][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_03.wav)
+[2018.04.07-04.27.58:760][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_04.wav)
+[2018.04.07-04.27.59:001][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_05.wav)
+[2018.04.07-04.27.59:245][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_06.wav)
+[2018.04.07-04.27.59:490][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_07.wav)
+[2018.04.07-04.27.59:736][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_08.wav)
+[2018.04.07-04.27.59:978][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_09.wav)
+[2018.04.07-04.28.00:222][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_10.wav)
+[2018.04.07-04.28.00:464][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_11.wav)
+[2018.04.07-04.28.00:707][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_12.wav)
+[2018.04.07-04.28.00:952][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_13.wav)
+[2018.04.07-04.28.01:196][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Dirt_14.wav)
+[2018.04.07-04.28.01:439][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_01.wav)
+[2018.04.07-04.28.01:614][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_02.wav)
+[2018.04.07-04.28.01:833][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_03.wav)
+[2018.04.07-04.28.02:077][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_04.wav)
+[2018.04.07-04.28.02:320][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_05.wav)
+[2018.04.07-04.28.02:563][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_06.wav)
+[2018.04.07-04.28.02:807][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_07.wav)
+[2018.04.07-04.28.03:021][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_08.wav)
+[2018.04.07-04.28.03:232][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_09.wav)
+[2018.04.07-04.28.03:475][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_10.wav)
+[2018.04.07-04.28.03:718][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_11.wav)
+[2018.04.07-04.28.03:961][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_12.wav)
+[2018.04.07-04.28.04:205][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_13.wav)
+[2018.04.07-04.28.04:446][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_14.wav)
+[2018.04.07-04.28.04:691][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_15.wav)
+[2018.04.07-04.28.04:934][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Footsteps/FT_Wood_16.wav)
+[2018.04.07-04.28.13:374][590]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Slide/ACT_Slide_01.wav)
+[2018.04.07-04.28.13:594][590]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Slide/ACT_Slide_2.wav)
+[2018.04.07-04.28.13:807][590]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Slide/ACT_Slide_3.wav)
+[2018.04.07-04.28.14:019][590]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Slide/ACT_Slide_4.wav)
+[2018.04.07-04.28.26:208][791]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Weapons/Railgun_Shot_1.wav)
+[2018.04.07-04.28.26:423][791]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Weapons/Railgun_Shot_2.wav)
+[2018.04.07-04.28.26:666][791]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Weapons/Railgun_Shot_3.wav)
+[2018.04.07-04.28.26:910][791]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Weapons/Railgun_Shot_4.wav)
+[2018.04.07-04.28.35:983][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_1.wav)
+[2018.04.07-04.28.36:203][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_2.wav)
+[2018.04.07-04.28.36:446][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_3.wav)
+[2018.04.07-04.28.36:690][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_4.wav)
+[2018.04.07-04.28.36:933][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_5.wav)
+[2018.04.07-04.28.37:148][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_6.wav)
+[2018.04.07-04.28.37:360][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Break_7.wav)
+[2018.04.07-04.28.37:603][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_1.wav)
+[2018.04.07-04.28.37:786][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_2.wav)
+[2018.04.07-04.28.37:969][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_3.wav)
+[2018.04.07-04.28.38:151][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_4.wav)
+[2018.04.07-04.28.38:335][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_5.wav)
+[2018.04.07-04.28.38:521][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drink_6.wav)
+[2018.04.07-04.28.38:733][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Drop.wav)
+[2018.04.07-04.28.38:916][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Lid_1.wav)
+[2018.04.07-04.28.39:098][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Lid_2.wav)
+[2018.04.07-04.28.39:281][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Lid_3.wav)
+[2018.04.07-04.28.39:463][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Liquid_1.wav)
+[2018.04.07-04.28.39:644][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Liquid_2.wav)
+[2018.04.07-04.28.39:825][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Liquid_3.wav)
+[2018.04.07-04.28.40:011][907]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Nicholas Schaffer/Desktop/W. Turner Sound Assests/Whiskey/Whiskey_Liquid_4.wav)
+[2018.04.07-04.30.03:216][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_10" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_10.uasset" SILENT=true
+[2018.04.07-04.30.03:228][143]LogSavePackage: Save=9.95ms
+[2018.04.07-04.30.03:228][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_10D8D25D614E045A2A0A65CF9A75D558EC.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_10.uasset'
+[2018.04.07-04.30.03:233][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_10.uasset
+[2018.04.07-04.30.03:553][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_11" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_11.uasset" SILENT=true
+[2018.04.07-04.30.03:564][143]LogSavePackage: Save=7.74ms
+[2018.04.07-04.30.03:564][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_11E71396E147643C788D34C998CB0F0F31.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_11.uasset'
+[2018.04.07-04.30.03:567][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_11.uasset
+[2018.04.07-04.30.03:850][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_12" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_12.uasset" SILENT=true
+[2018.04.07-04.30.03:859][143]LogSavePackage: Save=7.05ms
+[2018.04.07-04.30.03:859][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_12F1DF1A7647C1948AD9E8978E21F783F2.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_12.uasset'
+[2018.04.07-04.30.03:862][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_12.uasset
+[2018.04.07-04.30.04:155][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_13" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_13.uasset" SILENT=true
+[2018.04.07-04.30.04:165][143]LogSavePackage: Save=7.15ms
+[2018.04.07-04.30.04:165][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_13FD07180A41F164E9B66FD3B6A27DD197.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_13.uasset'
+[2018.04.07-04.30.04:168][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_13.uasset
+[2018.04.07-04.30.04:443][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_14" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_14.uasset" SILENT=true
+[2018.04.07-04.30.04:453][143]LogSavePackage: Save=7.55ms
+[2018.04.07-04.30.04:453][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_14534599084567DFBB4A0FBB9D37405BF4.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_14.uasset'
+[2018.04.07-04.30.04:456][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_14.uasset
+[2018.04.07-04.30.04:729][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_01" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_01.uasset" SILENT=true
+[2018.04.07-04.30.04:739][143]LogSavePackage: Save=6.78ms
+[2018.04.07-04.30.04:739][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_018CEA2C9A428FC07B4E3186A5309AE07B.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_01.uasset'
+[2018.04.07-04.30.04:742][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_01.uasset
+[2018.04.07-04.30.05:020][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_02" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_02.uasset" SILENT=true
+[2018.04.07-04.30.05:029][143]LogSavePackage: Save=7.52ms
+[2018.04.07-04.30.05:029][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_02BC937A36484044F4A23956A330A37D65.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_02.uasset'
+[2018.04.07-04.30.05:033][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_02.uasset
+[2018.04.07-04.30.05:317][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_03" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_03.uasset" SILENT=true
+[2018.04.07-04.30.05:328][143]LogSavePackage: Save=8.98ms
+[2018.04.07-04.30.05:328][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_03B73DF1F247D3CA624E0EA49AACE8A20A.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_03.uasset'
+[2018.04.07-04.30.05:331][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_03.uasset
+[2018.04.07-04.30.05:605][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_04" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_04.uasset" SILENT=true
+[2018.04.07-04.30.05:618][143]LogSavePackage: Save=10.21ms
+[2018.04.07-04.30.05:618][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_049492FFA846671A8B24540A87A9F0680D.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_04.uasset'
+[2018.04.07-04.30.05:621][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_04.uasset
+[2018.04.07-04.30.05:961][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_05" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_05.uasset" SILENT=true
+[2018.04.07-04.30.05:972][143]LogSavePackage: Save=8.27ms
+[2018.04.07-04.30.05:972][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_0571285CEB4573E0C2270FB1827EABE0C3.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_05.uasset'
+[2018.04.07-04.30.05:975][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_05.uasset
+[2018.04.07-04.30.06:270][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_06" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_06.uasset" SILENT=true
+[2018.04.07-04.30.06:280][143]LogSavePackage: Save=7.46ms
+[2018.04.07-04.30.06:280][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_065C1310FF405C3B27ED173C9C87469841.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_06.uasset'
+[2018.04.07-04.30.06:283][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_06.uasset
+[2018.04.07-04.30.06:558][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_07" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_07.uasset" SILENT=true
+[2018.04.07-04.30.06:568][143]LogSavePackage: Save=7.93ms
+[2018.04.07-04.30.06:568][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_072085410C456909CCCE142D87C6097537.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_07.uasset'
+[2018.04.07-04.30.06:571][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_07.uasset
+[2018.04.07-04.30.06:871][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_08" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_08.uasset" SILENT=true
+[2018.04.07-04.30.06:881][143]LogSavePackage: Save=8.34ms
+[2018.04.07-04.30.06:881][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_08132D281747500B89F3E783B4DCF21072.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_08.uasset'
+[2018.04.07-04.30.06:885][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_08.uasset
+[2018.04.07-04.30.07:160][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Dirt_09" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_09.uasset" SILENT=true
+[2018.04.07-04.30.07:171][143]LogSavePackage: Save=8.78ms
+[2018.04.07-04.30.07:171][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Dirt_09C1E62D7443C1B12E9D93E3AD863AD87B.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_09.uasset'
+[2018.04.07-04.30.07:175][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Dirt_09.uasset
+[2018.04.07-04.30.07:438][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_10" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_10.uasset" SILENT=true
+[2018.04.07-04.30.07:448][143]LogSavePackage: Save=7.79ms
+[2018.04.07-04.30.07:448][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_106367F4CB4388089E8934FEB5927B3B3D.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_10.uasset'
+[2018.04.07-04.30.07:451][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_10.uasset
+[2018.04.07-04.30.07:725][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_11" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_11.uasset" SILENT=true
+[2018.04.07-04.30.07:735][143]LogSavePackage: Save=8.14ms
+[2018.04.07-04.30.07:735][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_110C0D57FB4ECBF0582B94229C33B4D322.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_11.uasset'
+[2018.04.07-04.30.07:738][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_11.uasset
+[2018.04.07-04.30.08:013][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_12" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_12.uasset" SILENT=true
+[2018.04.07-04.30.08:025][143]LogSavePackage: Save=9.41ms
+[2018.04.07-04.30.08:025][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_1201765D304D1FF3BE3432B69949519FD4.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_12.uasset'
+[2018.04.07-04.30.08:028][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_12.uasset
+[2018.04.07-04.30.08:317][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_13" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_13.uasset" SILENT=true
+[2018.04.07-04.30.08:327][143]LogSavePackage: Save=7.38ms
+[2018.04.07-04.30.08:327][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_138E8600664C18CC6CD483DD96B778D43A.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_13.uasset'
+[2018.04.07-04.30.08:330][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_13.uasset
+[2018.04.07-04.30.08:617][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_14" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_14.uasset" SILENT=true
+[2018.04.07-04.30.08:626][143]LogSavePackage: Save=7.04ms
+[2018.04.07-04.30.08:626][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_141CB8A9B841BE97BC951180A8C06C8333.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_14.uasset'
+[2018.04.07-04.30.08:629][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_14.uasset
+[2018.04.07-04.30.08:915][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_15" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_15.uasset" SILENT=true
+[2018.04.07-04.30.08:925][143]LogSavePackage: Save=7.29ms
+[2018.04.07-04.30.08:925][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_155ECF7E4F49B7A7A558E8E58ED21B8341.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_15.uasset'
+[2018.04.07-04.30.08:928][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_15.uasset
+[2018.04.07-04.30.09:213][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_16" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_16.uasset" SILENT=true
+[2018.04.07-04.30.09:320][143]LogSavePackage: Save=104.24ms
+[2018.04.07-04.30.09:320][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_16ACA1F8594B8F6EDA75614896A43821AB.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_16.uasset'
+[2018.04.07-04.30.09:323][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_16.uasset
+[2018.04.07-04.30.09:598][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_01" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_01.uasset" SILENT=true
+[2018.04.07-04.30.09:608][143]LogSavePackage: Save=7.98ms
+[2018.04.07-04.30.09:608][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_01585164C3495F8894528E0DA6D1F88E02.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_01.uasset'
+[2018.04.07-04.30.09:611][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_01.uasset
+[2018.04.07-04.30.09:884][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_02" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_02.uasset" SILENT=true
+[2018.04.07-04.30.09:894][143]LogSavePackage: Save=7.26ms
+[2018.04.07-04.30.09:894][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_02874091FA43D427FB7E693294E706FF26.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_02.uasset'
+[2018.04.07-04.30.09:897][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_02.uasset
+[2018.04.07-04.30.10:193][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_03" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_03.uasset" SILENT=true
+[2018.04.07-04.30.10:202][143]LogSavePackage: Save=7.46ms
+[2018.04.07-04.30.10:203][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_030984BE604F409FFB11833B93ECB05B44.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_03.uasset'
+[2018.04.07-04.30.10:206][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_03.uasset
+[2018.04.07-04.30.10:513][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_04" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_04.uasset" SILENT=true
+[2018.04.07-04.30.10:524][143]LogSavePackage: Save=8.29ms
+[2018.04.07-04.30.10:524][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_0420B78F334FE11F12BB6413AFE3218872.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_04.uasset'
+[2018.04.07-04.30.10:527][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_04.uasset
+[2018.04.07-04.30.10:834][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_05" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_05.uasset" SILENT=true
+[2018.04.07-04.30.10:844][143]LogSavePackage: Save=7.54ms
+[2018.04.07-04.30.10:844][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_058EE78CA845AC0DCBBFCB8482F6D3F576.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_05.uasset'
+[2018.04.07-04.30.10:847][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_05.uasset
+[2018.04.07-04.30.11:143][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_06" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_06.uasset" SILENT=true
+[2018.04.07-04.30.11:153][143]LogSavePackage: Save=7.47ms
+[2018.04.07-04.30.11:153][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_066CF8BC49434BE2D4597B069CEBFC2BDA.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_06.uasset'
+[2018.04.07-04.30.11:156][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_06.uasset
+[2018.04.07-04.30.11:434][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_07" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_07.uasset" SILENT=true
+[2018.04.07-04.30.11:443][143]LogSavePackage: Save=7.48ms
+[2018.04.07-04.30.11:443][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_07B4E69A654D34411894A11B869EA0F2CA.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_07.uasset'
+[2018.04.07-04.30.11:446][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_07.uasset
+[2018.04.07-04.30.11:719][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_08" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_08.uasset" SILENT=true
+[2018.04.07-04.30.11:729][143]LogSavePackage: Save=7.91ms
+[2018.04.07-04.30.11:729][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_08FB6948BE4D48DB7E7C31CA9EEE3BC654.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_08.uasset'
+[2018.04.07-04.30.11:733][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_08.uasset
+[2018.04.07-04.30.12:030][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Footsteps/FT_Wood_09" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_09.uasset" SILENT=true
+[2018.04.07-04.30.12:040][143]LogSavePackage: Save=7.87ms
+[2018.04.07-04.30.12:040][143]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/FT_Wood_09E260FC9C464C022C60A02FA6372D8BCD.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_09.uasset'
+[2018.04.07-04.30.12:043][143]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Footsteps/FT_Wood_09.uasset
+[2018.04.07-04.31.13:549][789]LogAudioDerivedData: Display: Building compressed audio format OGG wave EFX_SHOTGUN_SHOT...
+[2018.04.07-04.31.13:565][789]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/assets/SoundFX/EFX_SHOTGUN_SHOT.EFX_SHOTGUN_SHOT.
+[2018.04.07-04.31.13:570][789]LogAudioDerivedData: Display: Building compressed audio format OGG wave EFX_REVOLVER_SHOT...
+[2018.04.07-04.31.13:589][789]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/assets/SoundFX/EFX_REVOLVER_SHOT.EFX_REVOLVER_SHOT.
+[2018.04.07-04.31.17:490][845]LogSavePackage: Save=7.90ms
+[2018.04.07-04.31.17:490][845]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_SHOTGUN_SHOT5F35F1AA49453506EFA354887E3503E6.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_SHOTGUN_SHOT.uasset'
+[2018.04.07-04.31.17:493][845]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_SHOTGUN_SHOT.uasset
+[2018.04.07-04.31.17:912][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/EFX_SHOTGUN_SHOT" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_SHOTGUN_SHOT.uasset" SILENT=true
+[2018.04.07-04.31.17:928][845]LogSavePackage: Save=5.01ms
+[2018.04.07-04.31.17:928][845]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_SHOTGUN_SHOTFB6759404F8DBC8C0D90899BA05BD60B.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_SHOTGUN_SHOT.uasset'
+[2018.04.07-04.31.17:932][845]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_SHOTGUN_SHOT.uasset
+[2018.04.07-04.31.18:127][845]LogSavePackage: Save=7.81ms
+[2018.04.07-04.31.18:127][845]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_REVOLVER_SHOT644EB1D441DEE86FDAA998B09417B486.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_REVOLVER_SHOT.uasset'
+[2018.04.07-04.31.18:130][845]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_REVOLVER_SHOT.uasset
+[2018.04.07-04.31.18:589][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/EFX_REVOLVER_SHOT" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REVOLVER_SHOT.uasset" SILENT=true
+[2018.04.07-04.31.18:604][845]LogSavePackage: Save=4.76ms
+[2018.04.07-04.31.18:604][845]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_REVOLVER_SHOT701B66BF414E2FF24077E48E29D93691.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REVOLVER_SHOT.uasset'
+[2018.04.07-04.31.18:608][845]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REVOLVER_SHOT.uasset
+[2018.04.07-04.31.39:546][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Firearms/Railgun_Shot_1" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_1.uasset" SILENT=true
+[2018.04.07-04.31.39:556][287]LogSavePackage: Save=7.56ms
+[2018.04.07-04.31.39:556][287]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Railgun_Shot_15068D48E48A7FB88A7863E9451A14C62.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_1.uasset'
+[2018.04.07-04.31.39:559][287]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_1.uasset
+[2018.04.07-04.31.40:020][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Firearms/Railgun_Shot_2" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_2.uasset" SILENT=true
+[2018.04.07-04.31.40:030][287]LogSavePackage: Save=7.41ms
+[2018.04.07-04.31.40:030][287]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Railgun_Shot_23CB7346845BD03851B20258CBFEDB905.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_2.uasset'
+[2018.04.07-04.31.40:033][287]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_2.uasset
+[2018.04.07-04.31.40:537][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Firearms/Railgun_Shot_3" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_3.uasset" SILENT=true
+[2018.04.07-04.31.40:547][287]LogSavePackage: Save=7.68ms
+[2018.04.07-04.31.40:547][287]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Railgun_Shot_3592CE2A84D2B21A81540209006F52D35.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_3.uasset'
+[2018.04.07-04.31.40:551][287]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_3.uasset
+[2018.04.07-04.31.41:104][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Firearms/Railgun_Shot_4" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_4.uasset" SILENT=true
+[2018.04.07-04.31.41:115][287]LogSavePackage: Save=8.21ms
+[2018.04.07-04.31.41:115][287]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Railgun_Shot_4C2CC9B004B495AE76D1280A59575A33F.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_4.uasset'
+[2018.04.07-04.31.41:118][287]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/Railgun_Shot_4.uasset
+[2018.04.07-04.32.38:393][781]LogSavePackage: Save=8.84ms
+[2018.04.07-04.32.38:393][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_HumA6FF71C742A554B57C64D386354DB4C7.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Hum.uasset'
+[2018.04.07-04.32.38:396][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Hum.uasset
+[2018.04.07-04.32.38:992][781]LogSavePackage: Save=7.89ms
+[2018.04.07-04.32.38:992][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Insects_Loop_018C632080439C1B829F9A78A6A21797A5.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Insects_Loop_01.uasset'
+[2018.04.07-04.32.38:996][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Insects_Loop_01.uasset
+[2018.04.07-04.32.39:593][781]LogSavePackage: Save=9.83ms
+[2018.04.07-04.32.39:593][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Mockingbird_Loop2EE8225143EA9FE71BB607B4AE08C87E.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Mockingbird_Loop.uasset'
+[2018.04.07-04.32.39:596][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Mockingbird_Loop.uasset
+[2018.04.07-04.32.40:270][781]LogSavePackage: Save=8.36ms
+[2018.04.07-04.32.40:270][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Mockingbird_SweetnerE8C7FE814815BA64AA3F0BBF243BF889.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Mockingbird_Sweetner.uasset'
+[2018.04.07-04.32.40:273][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Mockingbird_Sweetner.uasset
+[2018.04.07-04.32.40:792][781]LogSavePackage: Save=9.97ms
+[2018.04.07-04.32.40:792][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Wind_Loop_0158A87ECB4458E3A3DF6EE5AB99DC8454.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_01.uasset'
+[2018.04.07-04.32.40:795][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_01.uasset
+[2018.04.07-04.32.41:466][781]LogSavePackage: Save=8.40ms
+[2018.04.07-04.32.41:466][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Wind_Loop_02D0E4CBB94E73A28FE4B2FD91458F3A16.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_02.uasset'
+[2018.04.07-04.32.41:469][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_02.uasset
+[2018.04.07-04.32.41:961][781]LogSavePackage: Save=8.21ms
+[2018.04.07-04.32.41:961][781]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/AMB_Wind_Loop_03E8F67F744E241ECBE7E197B1E96DD143.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_03.uasset'
+[2018.04.07-04.32.41:964][781]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Ambient_Old_Town/AMB_Wind_Loop_03.uasset
+[2018.04.07-04.33.17:535][383]LogSavePackage: Save=8.87ms
+[2018.04.07-04.33.17:535][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_1BD98B2C347E55B27B175C6A4BAADB43B.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_1.uasset'
+[2018.04.07-04.33.17:538][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_1.uasset
+[2018.04.07-04.33.18:048][383]LogSavePackage: Save=7.37ms
+[2018.04.07-04.33.18:048][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_2DBA0DB4848F529DB865E828660884B36.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_2.uasset'
+[2018.04.07-04.33.18:051][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_2.uasset
+[2018.04.07-04.33.18:459][383]LogSavePackage: Save=7.68ms
+[2018.04.07-04.33.18:459][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_341CD1C704356B1019EE3638258F71D86.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_3.uasset'
+[2018.04.07-04.33.18:462][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_3.uasset
+[2018.04.07-04.33.18:978][383]LogSavePackage: Save=7.62ms
+[2018.04.07-04.33.18:978][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_48990664248C45A5A1C0BB29404EAB085.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_4.uasset'
+[2018.04.07-04.33.18:981][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_4.uasset
+[2018.04.07-04.33.19:493][383]LogSavePackage: Save=8.19ms
+[2018.04.07-04.33.19:493][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_5A8F5DD27429D3A56F10CF6BB455E6433.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_5.uasset'
+[2018.04.07-04.33.19:497][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_5.uasset
+[2018.04.07-04.33.20:049][383]LogSavePackage: Save=7.24ms
+[2018.04.07-04.33.20:049][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_68D3AE7F741F7FB9725ECBD886E65785C.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_6.uasset'
+[2018.04.07-04.33.20:053][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_6.uasset
+[2018.04.07-04.33.20:564][383]LogSavePackage: Save=7.85ms
+[2018.04.07-04.33.20:564][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Break_728AA4CAC49B50671F91CD9936F07E7D5.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_7.uasset'
+[2018.04.07-04.33.20:568][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Break_7.uasset
+[2018.04.07-04.33.21:081][383]LogSavePackage: Save=7.73ms
+[2018.04.07-04.33.21:081][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_1065AB39245F35430D50E76A43756BC32.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_1.uasset'
+[2018.04.07-04.33.21:084][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_1.uasset
+[2018.04.07-04.33.21:596][383]LogSavePackage: Save=8.77ms
+[2018.04.07-04.33.21:596][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_2C90824274D5FC766AD5A298DE47402C9.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_2.uasset'
+[2018.04.07-04.33.21:599][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_2.uasset
+[2018.04.07-04.33.22:022][383]LogSavePackage: Save=7.40ms
+[2018.04.07-04.33.22:022][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_3CE4C85AF4FCCCE60C3870F9E4534CC10.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_3.uasset'
+[2018.04.07-04.33.22:025][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_3.uasset
+[2018.04.07-04.33.22:503][383]LogSavePackage: Save=7.43ms
+[2018.04.07-04.33.22:503][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_4712495C64B37725B0F41899015FCFB2C.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_4.uasset'
+[2018.04.07-04.33.22:506][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_4.uasset
+[2018.04.07-04.33.23:017][383]LogSavePackage: Save=7.11ms
+[2018.04.07-04.33.23:018][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_5EB72D5994357587D82613A97324EDA06.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_5.uasset'
+[2018.04.07-04.33.23:021][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_5.uasset
+[2018.04.07-04.33.23:573][383]LogSavePackage: Save=8.07ms
+[2018.04.07-04.33.23:573][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drink_61834041F48496A724A551FA7472A2C95.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_6.uasset'
+[2018.04.07-04.33.23:576][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drink_6.uasset
+[2018.04.07-04.33.24:126][383]LogSavePackage: Save=7.50ms
+[2018.04.07-04.33.24:126][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Drop711F680E4E835464CAAC0299CB29F465.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drop.uasset'
+[2018.04.07-04.33.24:129][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Drop.uasset
+[2018.04.07-04.33.24:639][383]LogSavePackage: Save=7.07ms
+[2018.04.07-04.33.24:639][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Lid_11CABED0A4A0CD85F8626EA81958F52AB.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_1.uasset'
+[2018.04.07-04.33.24:643][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_1.uasset
+[2018.04.07-04.33.25:153][383]LogSavePackage: Save=7.17ms
+[2018.04.07-04.33.25:153][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Lid_28720061B44592BFB3E06BD9B2E56799F.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_2.uasset'
+[2018.04.07-04.33.25:157][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_2.uasset
+[2018.04.07-04.33.25:670][383]LogSavePackage: Save=7.71ms
+[2018.04.07-04.33.25:670][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Lid_39668787E4A928850AEB792AF5C749096.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_3.uasset'
+[2018.04.07-04.33.25:674][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Lid_3.uasset
+[2018.04.07-04.33.26:146][383]LogSavePackage: Save=7.52ms
+[2018.04.07-04.33.26:146][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Liquid_1C25E559E45A76095C51F3F8A63F751C8.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_1.uasset'
+[2018.04.07-04.33.26:149][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_1.uasset
+[2018.04.07-04.33.26:663][383]LogSavePackage: Save=8.07ms
+[2018.04.07-04.33.26:663][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Liquid_2A6F0CB444BCDF06D37A78AB60F1703A8.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_2.uasset'
+[2018.04.07-04.33.26:666][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_2.uasset
+[2018.04.07-04.33.27:177][383]LogSavePackage: Save=7.22ms
+[2018.04.07-04.33.27:177][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Liquid_33F3F0B244C36B0DCF7BE3EA0D2DF76BB.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_3.uasset'
+[2018.04.07-04.33.27:180][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_3.uasset
+[2018.04.07-04.33.27:693][383]LogSavePackage: Save=8.14ms
+[2018.04.07-04.33.27:693][383]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Whiskey_Liquid_4E8FBDFFC41CC80649B0179863AFB14D2.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_4.uasset'
+[2018.04.07-04.33.27:696][383]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Whiskey_Bottle/Whiskey_Liquid_4.uasset
+[2018.04.07-04.33.41:074][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Firearms/EFX_GUN_ZAP" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_GUN_ZAP.uasset" SILENT=true
+[2018.04.07-04.33.41:083][519]LogSavePackage: Save=7.34ms
+[2018.04.07-04.33.41:083][519]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_GUN_ZAPE9D974E1494D92493EE8CDA19D624BF3.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_GUN_ZAP.uasset'
+[2018.04.07-04.33.41:086][519]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_GUN_ZAP.uasset
+[2018.04.07-04.34.03:633][934]LogSavePackage: Save=7.76ms
+[2018.04.07-04.34.03:633][934]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/ACT_Slide_01D3410F944321EEC0C1A23A9508D3FB04.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_01.uasset'
+[2018.04.07-04.34.03:636][934]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_01.uasset
+[2018.04.07-04.34.04:190][934]LogSavePackage: Save=7.65ms
+[2018.04.07-04.34.04:190][934]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/ACT_Slide_23F9F08BB45B106D121A02EBE398E95E9.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_2.uasset'
+[2018.04.07-04.34.04:193][934]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_2.uasset
+[2018.04.07-04.34.04:747][934]LogSavePackage: Save=7.63ms
+[2018.04.07-04.34.04:747][934]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/ACT_Slide_38D24525F43ED31BB100D13B03C2D5067.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_3.uasset'
+[2018.04.07-04.34.04:750][934]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_3.uasset
+[2018.04.07-04.34.05:263][934]LogSavePackage: Save=7.21ms
+[2018.04.07-04.34.05:263][934]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/ACT_Slide_45E95470843F94E8AD325D4A6154AC55D.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_4.uasset'
+[2018.04.07-04.34.05:266][934]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/ACT_Slide_4.uasset
+[2018.04.07-04.34.23:108][222]LogSavePackage: Save=7.54ms
+[2018.04.07-04.34.23:108][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_GRUNT6C2AAA9745C389D7A67D5CAC9B37E781.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT.uasset'
+[2018.04.07-04.34.23:111][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT.uasset
+[2018.04.07-04.34.23:664][222]LogSavePackage: Save=7.22ms
+[2018.04.07-04.34.23:664][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_GRUNT_01A2CB2C244E3606E90E72449603EF2263.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_01.uasset'
+[2018.04.07-04.34.23:667][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_01.uasset
+[2018.04.07-04.34.24:116][222]LogSavePackage: Save=7.16ms
+[2018.04.07-04.34.24:116][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_GRUNT_02AA1157A940B0A3B53459209236600857.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_02.uasset'
+[2018.04.07-04.34.24:119][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_02.uasset
+[2018.04.07-04.34.24:570][222]LogSavePackage: Save=7.23ms
+[2018.04.07-04.34.24:570][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_GRUNT_03FF55B2514ADB9BDC1CF74CA3B64138A9.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_03.uasset'
+[2018.04.07-04.34.24:573][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_GRUNT_03.uasset
+[2018.04.07-04.34.25:016][222]LogSavePackage: Save=8.38ms
+[2018.04.07-04.34.25:016][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_OBJECT_FALL_THUD_011319C5D249FB3900E1340F9C5E1E26E3.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_OBJECT_FALL_THUD_01.uasset'
+[2018.04.07-04.34.25:020][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_OBJECT_FALL_THUD_01.uasset
+[2018.04.07-04.34.25:397][222]LogSavePackage: Save=7.14ms
+[2018.04.07-04.34.25:397][222]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_OBJECT_FALL_THUD_02801418CB4C7C0C57E0CF06B2BF00BCBC.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_OBJECT_FALL_THUD_02.uasset'
+[2018.04.07-04.34.25:400][222]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_OBJECT_FALL_THUD_02.uasset
+[2018.04.07-04.34.35:058][360]LogSavePackage: Save=7.40ms
+[2018.04.07-04.34.35:058][360]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_WOOD_KICK_0167D97FE24CC399FF9DE827A7A6162EA9.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_WOOD_KICK_01.uasset'
+[2018.04.07-04.34.35:061][360]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Grunts_Thuds_Kicks/EFX_WOOD_KICK_01.uasset
+[2018.04.07-04.36.36:548][ 78]LogSavePackage: Save=7.58ms
+[2018.04.07-04.36.36:548][ 78]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_Reload_Revolver40E8B25241DA28AA1DCD2C9D1050A4D9.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_Reload_Revolver.uasset'
+[2018.04.07-04.36.36:551][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_Reload_Revolver.uasset
+[2018.04.07-04.36.36:913][ 78]LogSavePackage: Save=7.41ms
+[2018.04.07-04.36.36:913][ 78]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_REVOLVER_RELOAD_02BFDA939742ECBCDAB99FC6BEE9ABB231.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_REVOLVER_RELOAD_02.uasset'
+[2018.04.07-04.36.36:916][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Firearms/EFX_REVOLVER_RELOAD_02.uasset
+[2018.04.07-04.37.09:065][419]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OldeTown' took 0.012
+[2018.04.07-04.37.09:067][419]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/assets/SoundFX/EFX_DISTANT_EXPLOSION_2] ([1] browsable assets)...
+[2018.04.07-04.37.09:071][419]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/assets/SoundFX/EFX_DISTANT_EXPLOSION_2.EFX_DISTANT_EXPLOSION_2]
+[2018.04.07-04.37.09:071][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/assets/SoundFX/EFX_DISTANT_EXPLOSION_2]
+[2018.04.07-04.37.09:081][419]LogSavePackage: Save=7.52ms
+[2018.04.07-04.37.09:082][419]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_DISTANT_EXPLOSION_2_Auto1F17823CE47B1F07793AEEEB165333381.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_DISTANT_EXPLOSION_2_Auto1.uasset'
+[2018.04.07-04.37.09:083][419]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_DISTANT_EXPLOSION_2_Auto1.uasset
+[2018.04.07-04.37.09:084][419]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/assets/SoundFX/EFX_EXPLOSION_01] ([1] browsable assets)...
+[2018.04.07-04.37.09:088][419]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/assets/SoundFX/EFX_EXPLOSION_01.EFX_EXPLOSION_01]
+[2018.04.07-04.37.09:088][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/assets/SoundFX/EFX_EXPLOSION_01]
+[2018.04.07-04.37.09:098][419]LogSavePackage: Save=7.12ms
+[2018.04.07-04.37.09:098][419]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_EXPLOSION_01_Auto1C9FB1A184EC5C23E401892BAAB02E957.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_EXPLOSION_01_Auto1.uasset'
+[2018.04.07-04.37.09:099][419]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_EXPLOSION_01_Auto1.uasset
+[2018.04.07-04.37.09:100][419]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/assets/SoundFX/EFX_EXPLOSION_3] ([1] browsable assets)...
+[2018.04.07-04.37.09:104][419]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/assets/SoundFX/EFX_EXPLOSION_3.EFX_EXPLOSION_3]
+[2018.04.07-04.37.09:104][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/assets/SoundFX/EFX_EXPLOSION_3]
+[2018.04.07-04.37.09:114][419]LogSavePackage: Save=7.83ms
+[2018.04.07-04.37.09:114][419]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_EXPLOSION_3_Auto1A7D328A64E88203C0BC392A25E1381C0.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_EXPLOSION_3_Auto1.uasset'
+[2018.04.07-04.37.09:116][419]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/Autosaves/Game/assets/SoundFX/EFX_EXPLOSION_3_Auto1.uasset
+[2018.04.07-04.37.09:116][419]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.04.07-04.37.43:543][864]LogSavePackage: Save=7.28ms
+[2018.04.07-04.37.43:543][864]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_DISTANT_EXPLOSION_290E50B354A237CEBF20448BCC4B11943.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_DISTANT_EXPLOSION_2.uasset'
+[2018.04.07-04.37.43:546][864]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_DISTANT_EXPLOSION_2.uasset
+[2018.04.07-04.37.44:058][864]LogSavePackage: Save=7.32ms
+[2018.04.07-04.37.44:058][864]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_EXPLOSION_359F03AF24E21151E861876911DD7ED09.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_EXPLOSION_3.uasset'
+[2018.04.07-04.37.44:061][864]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_EXPLOSION_3.uasset
+[2018.04.07-04.37.44:679][864]LogSavePackage: Save=75.79ms
+[2018.04.07-04.37.44:679][864]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_EXPLOSION_01960908594A6521048B5DDDB8502423FC.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_EXPLOSION_01.uasset'
+[2018.04.07-04.37.44:683][864]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Explosions/EFX_EXPLOSION_01.uasset
+[2018.04.07-04.38.00:200][243]LogAudioDerivedData: Display: Building compressed audio format OGG wave EFX_REEL_B...
+[2018.04.07-04.38.00:592][243]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/assets/SoundFX/EFX_REEL_B.EFX_REEL_B.
+[2018.04.07-04.38.00:594][243]LogAudioDerivedData: Display: Building compressed audio format OGG wave EFX_UI_SCROLL...
+[2018.04.07-04.38.00:602][243]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/assets/SoundFX/EFX_UI_SCROLL.EFX_UI_SCROLL.
+[2018.04.07-04.38.00:603][243]LogAudioDerivedData: Display: Building compressed audio format OGG wave EFX_UI_SELECT...
+[2018.04.07-04.38.00:614][243]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/assets/SoundFX/EFX_UI_SELECT.EFX_UI_SELECT.
+[2018.04.07-04.38.05:177][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/Non_Diagetic/EFX_REEL_B" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_REEL_B.uasset" SILENT=true
+[2018.04.07-04.38.05:188][300]LogSavePackage: Save=9.17ms
+[2018.04.07-04.38.05:189][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_REEL_B0DBBDA374D10063BE90DA48769F1495C.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_REEL_B.uasset'
+[2018.04.07-04.38.05:192][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_REEL_B.uasset
+[2018.04.07-04.38.05:851][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/EFX_REEL_B" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REEL_B.uasset" SILENT=true
+[2018.04.07-04.38.05:869][300]LogSavePackage: Save=4.52ms
+[2018.04.07-04.38.05:870][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_REEL_B38B4AA8E44B926F24498698803B2EDC2.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REEL_B.uasset'
+[2018.04.07-04.38.05:873][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_REEL_B.uasset
+[2018.04.07-04.38.06:028][300]LogSavePackage: Save=7.52ms
+[2018.04.07-04.38.06:028][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_UI_SCROLLD2393B3C4502285773D239A15A13C0A2.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_UI_SCROLL.uasset'
+[2018.04.07-04.38.06:031][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_UI_SCROLL.uasset
+[2018.04.07-04.38.06:493][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/EFX_UI_SCROLL" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SCROLL.uasset" SILENT=true
+[2018.04.07-04.38.06:507][300]LogSavePackage: Save=4.68ms
+[2018.04.07-04.38.06:507][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_UI_SCROLL8E529D7E455F1389DE1D0CB0E6315EB5.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SCROLL.uasset'
+[2018.04.07-04.38.06:510][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SCROLL.uasset
+[2018.04.07-04.38.06:671][300]LogSavePackage: Save=7.60ms
+[2018.04.07-04.38.06:671][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_UI_SELECTB6CBF0CA41E14D68CA8617846C4E2A88.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_UI_SELECT.uasset'
+[2018.04.07-04.38.06:674][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/Non_Diagetic/EFX_UI_SELECT.uasset
+[2018.04.07-04.38.07:132][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/SoundFX/EFX_UI_SELECT" FILE="../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SELECT.uasset" SILENT=true
+[2018.04.07-04.38.07:147][300]LogSavePackage: Save=5.02ms
+[2018.04.07-04.38.07:147][300]LogSavePackage: Moving '../../../../../Repositories/WesTurner/TroubleInTheWesT/Saved/EFX_UI_SELECT64150B3A4B525C4CAF41B49FA284529C.tmp' to '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SELECT.uasset'
+[2018.04.07-04.38.07:150][300]LogSavePackage: Display: Finished SavePackage ../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/assets/SoundFX/EFX_UI_SELECT.uasset
+[2018.04.07-04.38.18:268][634]LogSlate: Window 'TroubleInTheWesT - Unreal Editor' being destroyed
+[2018.04.07-04.38.18:442][635]Cmd: QUIT_EDITOR
+[2018.04.07-04.38.18:463][635]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.07-04.38.18:474][635]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.07-04.38.18:483][635]LogExit: Preparing to exit.
+[2018.04.07-04.38.19:340][635]LogDirectoryWatcher: A directory notification for 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/' was aborted.
+[2018.04.07-04.38.19:363][635]LogExit: Editor shut down
+[2018.04.07-04.38.19:365][635]LogExit: Transaction tracking system shut down
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../../../../Repositories/WesTurner/TroubleInTheWesT/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.07-04.38.19:535][635]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.07-04.38.19:597][635]LogExit: Object subsystem successfully closed.
+[2018.04.07-04.38.19:620][635]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.07-04.38.19:623][635]LogD3D11RHI: Shutdown
+[2018.04.07-04.38.19:623][635]LogD3D11RHI: CleanupD3DDevice
+[2018.04.07-04.38.19:628][635]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.07-04.38.19:635][635]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (582)
+[2018.04.07-04.38.19:635][635]LogModuleManager: Shutting down and abandoning module SceneOutliner (580)
+[2018.04.07-04.38.19:635][635]LogModuleManager: Shutting down and abandoning module AddContentDialog (578)
+[2018.04.07-04.38.19:635][635]LogDirectoryWatcher: A directory notification for 'F:/Unreal/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module WidgetCarousel (577)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module EditorWidgets (574)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module CollectionManager (572)
+[2018.04.07-04.38.19:636][635]LogDirectoryWatcher: A directory notification for 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/Collections/' was aborted.
+[2018.04.07-04.38.19:636][635]LogDirectoryWatcher: A directory notification for 'F:/Repositories/WesTurner/TroubleInTheWesT/Content/Developers/NicholasSchaffer/Collections/' was aborted.
+[2018.04.07-04.38.19:636][635]LogDirectoryWatcher: A directory notification for 'F:/Repositories/WesTurner/TroubleInTheWesT/Saved/Collections/' was aborted.
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module StatsViewer (570)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module FoliageEdit (568)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module LandscapeEditor (566)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module MeshPaintMode (564)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (562)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module ActorPickerMode (560)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module GeometryMode (558)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module TextureAlignMode (556)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module BspMode (554)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (552)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module HardwareSurvey (550)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (548)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module AutomationWorker (546)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (544)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module SequenceRecorder (543)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (540)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (538)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module PlacementMode (537)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (532)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (530)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (528)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (526)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (524)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (522)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (520)
+[2018.04.07-04.38.19:636][635]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (518)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (516)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (514)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module CharacterAI (512)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module SmartSnapping (510)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module SessionServices (508)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module ViewportSnapping (506)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module ViewportInteraction (504)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module ClothPainter (502)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (501)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module LogVisualizer (498)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module IntroTutorials (496)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (495)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (492)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (490)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (488)
+[2018.04.07-04.38.19:637][635]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (487)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (484)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (482)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (480)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module InputBindingEditor (478)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module MergeActors (476)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (474)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module LocalizationService (473)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module HardwareTargeting (470)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (468)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module UndoHistory (466)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module XmlParser (464)
+[2018.04.07-04.38.19:849][635]LogModuleManager: Shutting down and abandoning module Blutility (462)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (460)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (459)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (456)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module SettingsEditor (454)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module ProjectLauncher (452)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module SessionFrontend (450)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module ProfilerClient (448)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module DeviceManager (446)
+[2018.04.07-04.38.19:850][635]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (445)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module AutomationController (442)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module AutomationWindow (440)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module Layers (438)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (436)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module DetailCustomizations (434)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module PackagesDialog (432)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module Persona (430)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (429)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module AnimGraph (427)
+[2018.04.07-04.38.19:913][635]LogModuleManager: Shutting down and abandoning module Kismet (424)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module GraphEditor (422)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module ClassViewer (420)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module Toolbox (418)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module ModuleUI (416)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module MovieSceneTools (414)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module OutputLog (412)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module GammaUI (410)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module Documentation (408)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (406)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module MovieScene (404)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (402)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module LauncherPlatform (400)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module AnalyticsET (398)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module PortalServices (396)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module PortalRpc (394)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module MessagingRpc (392)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module AIModule (390)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module GameplayDebugger (389)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module AITestSuite (387)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module DesktopPlatform (384)
+[2018.04.07-04.38.19:914][635]LogModuleManager: Shutting down and abandoning module ProfilerService (382)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module TaskGraph (380)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (378)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module SubstanceSource (376)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module SubstanceEditor (374)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.04.07-04.38.19:928][635]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.04.07-04.38.19:931][635]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2018.04.07-04.38.19:932][635]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2018.04.07-04.38.20:033][635]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module SubstanceCore (270)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.07-04.38.20:260][635]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.07-04.38.20:261][635]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.04.07-04.38.20:261][635]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.04.07-04.38.20:261][635]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.07-04.38.20:261][635]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.07-04.38.20:262][635]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.04.07-04.38.20:262][635]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.04.07-04.38.20:262][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.04.07-04.38.20:262][635]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.04.07-04.38.20:262][635]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.04.07-04.38.21:097][635]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.07-04.38.21:097][635]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.07-04.38.21:097][635]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.07-04.38.21:099][635]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
+[2018.04.07-04.38.21:099][635]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
+[2018.04.07-04.38.21:099][635]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
+[2018.04.07-04.38.21:099][635]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
+[2018.04.07-04.38.21:099][635]LogModuleManager: Shutting down and abandoning module Media (225)
+[2018.04.07-04.38.21:105][635]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.04.07-04.38.21:105][635]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.04.07-04.38.21:106][635]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.04.07-04.38.21:107][635]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.04.07-04.38.21:108][635]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.04.07-04.38.21:115][635]LogDerivedDataCache: Shutdown
+[2018.04.07-04.38.21:115][635]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.04.07-04.38.21:115][635]LogXGEController: Cleaning working directory: C:/Users/Nicholas Schaffer/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.07-04.38.21:115][635]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.07-04.38.21:115][635]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.07-04.38.21:116][635]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.07-04.38.21:117][635]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.07-04.38.21:117][635]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.07-04.38.21:117][635]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B46C233E1-4DCA-78D1-2840-73B1A2B52CA3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.0-3944462%2B%2B%2BUE4%2BRelease-4.19&UserID=77ac1b284861b39a9e0ce38354b511ed%7C9d21441478434d089624e191cf82294a%7Cdf9b2e46-16dd-49ff-aee4-2f08bd4a1e4f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.07-04.38.21:118][635]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.07-04.38.21:119][635]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.07-04.38.21:119][635]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.07-04.38.21:119][635]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.07-04.38.21:119][635]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.07-04.38.21:120][635]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.07-04.38.21:126][635]LogExit: Exiting.
+[2018.04.07-04.38.21:138][635]Log file closed, 04/07/18 00:38:21
